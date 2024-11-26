@@ -1,0 +1,16 @@
+[
+    {
+        "rule_id": 1,
+        "direction": "incoming",
+        "protocol": "tcp",
+        "port": 22,
+        "action": "allow"
+    },
+    {
+        "rule_id": 2,
+        "direction": "outgoing",
+        "protocol": "udp",
+        "port": 53,
+        "action": "block"
+    }
+]
